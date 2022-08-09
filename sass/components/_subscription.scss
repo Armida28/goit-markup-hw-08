@@ -1,0 +1,57 @@
+.subscription-title {
+  font-family: 'Roboto', sans-serif;
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+margin-bottom: 20px;
+color: #FFFFFF;
+}
+
+.subscription-form {
+  display: inline-flex;
+}
+
+.subscription {
+  margin-left: auto;
+}
+
+.subscription-input {
+  width: 358px;
+  height: 50px;
+  margin-right: 12px;
+
+  padding-left: 16px;
+
+  font-size: 16px;
+  line-height: 1.25;
+  color: rgba(255, 255, 255, 0.6);
+  background-color: transparent;
+
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  border-radius: 4px;
+}
+
+.btn-subscription {
+  color: #ffffff ;
+  background-color: #2196f3;
+  
+}
+
+
+
+
+.subscription-form > .btn-subscription {
+  display: flex;
+  margin: 0;
+  justify-content: center;
+  align-items: center;
+}
+
+.subscription-icon {
+  margin-left: 10px;
+  fill: currentColor;
+}
