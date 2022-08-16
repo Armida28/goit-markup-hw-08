@@ -1,0 +1,34 @@
+.portfolio__heading {
+  display: none;
+}
+
+.portfolio__filter {
+  margin-bottom: 40px;
+
+  @include tablet {
+    margin-bottom: 30px;
+
+    @include desktop {
+      margin-bottom: 50px;
+    }
+  }
+}
+
+.portfolio__list {
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: $item-gap;
+  column-gap: $item-gap;
+}
+
+.portfolio__card {
+  flex-basis: 100%;
+
+  @include tablet {
+    flex-basis: calc((100% - #{$item-gap}) / 2);
+  }
+
+  @include desktop {
+    flex-basis: calc((100% - #{$item-gap} * 2) / 3);
+  }
+}
